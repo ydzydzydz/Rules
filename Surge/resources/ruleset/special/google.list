@@ -1,0 +1,14 @@
+# Google
+USER-AGENT,WalletAPP.app*
+USER-AGENT,Wallet*iSL*
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,gstatic
+DOMAIN-KEYWORD,youtube

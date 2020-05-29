@@ -1,0 +1,8 @@
+# Spotify
+PROCESS-NAME,Spotify
+USER-AGENT,*Spotify*
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-KEYWORD,spotify
+DOMAIN-KEYWORD,spotify

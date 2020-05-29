@@ -1,0 +1,703 @@
+// Anti_ISP_JavaScript_Injection
+URL-REGEX, https?://c.minisplat.cn
+URL-REGEX, https?://c1.minisplat.cn
+URL-REGEX, https?://cache.changjingyi.cn
+URL-REGEX, https?://cache.gclick.cn
+
+// Anti_ISP_Safari_Baidu_CPM_Hijack
+URL-REGEX, https?://m.coolaiy.com/b.php
+URL-REGEX, https?://www.babyye.com/b.php
+URL-REGEX, https?://www.gwv7.com/b.php
+URL-REGEX, https?://www.likeji.net/b.php
+
+// ChinaRailcom
+URL-REGEX, https?://211.98.70.226:8080/
+URL-REGEX, https?://211.98.71.195:8080/
+URL-REGEX, https?://211.98.71.196:8080/
+
+// 腾讯
+URL-REGEX, https?://.+.mp4\?cdncode=.+&sdtfrom=v3004
+URL-REGEX, https?://.+/hls.cache.p4p/
+URL-REGEX, https?://.+/music/common/upload/t_splash_info
+URL-REGEX, https?://.+/omts.tc.qq.com/
+URL-REGEX, https?://.+/tips/fcgi-bin/fcg_get_advert
+URL-REGEX, https?://.+/variety.tc.qq.com/
+URL-REGEX, https?://.+/vlive.qqvideo.tc.qq.com/
+URL-REGEX, https?://3gimg.qq.com/tencentMapTouch/app/activity/
+URL-REGEX, https?://api5.futunn.com/ad/
+URL-REGEX, https?://bla.gtimg.com/qqlive/\d{6}.+.png
+URL-REGEX, https?://imgcache.qq.com/qqlive/
+URL-REGEX, https?://lives.l.qq.com/livemsg\?sdtfrom=
+URL-REGEX, https?://mmgr.gtimg.com/gjsmall/qiantu/upload/
+URL-REGEX, https?://mp.weixin.qq.com/mp/(ad_complaint|ad_video|advertisement_report|report)
+URL-REGEX, https?://mtteve.beacon.qq.com/analytics
+URL-REGEX, https?://qt.qq.com/lua/mengyou/get_splash_screen_info
+URL-REGEX, https?://r.inews.qq.com/(adsBlacklist|getBannerAds|getFullScreenPic|getNewsRemoteConfig|getQQNewsRemoteConfig|searchHotCatList|upLoadLoc)
+URL-REGEX, https?://r.inews.qq.com/getSplash\?apptype=ios&startarticleid=&__qnr=
+URL-REGEX, https?://splashqqlive.gtimg.com/website/\d{6}
+URL-REGEX, https?://ssl.kohsocialapp.qq.com:10001/game/buttons
+URL-REGEX, https?://szextshort.weixin.qq.com/cgi-bin/mmoc-bin/ad/
+URL-REGEX, https?://vv.video.qq.com/getvmind\?
+URL-REGEX, https?://y.gtimg.cn/music/common/upload/targeted_ads
+
+// 新浪
+URL-REGEX, https?://api.weibo.cn/2/statuses/extend\?gsid=
+URL-REGEX, https?://edit.sinaapp.com/ua\?t=adv
+URL-REGEX, https?://free.sinaimg.cn/u1.img.mobile.sina.cn
+URL-REGEX, https?://simg.s.weibo.com/.+_ios\d{2}.gif
+URL-REGEX, https?://storage.wax.weibo.com/\w+.(png|jpg|mp4)
+URL-REGEX, "https?://u1.img.mobile.sina.cn/public/files/image/\d{3}x\d{2,4}.+(png|jpg|mp4)"
+
+// 优酷
+URL-REGEX, .+&duration=\d{2}&
+URL-REGEX, https?://(iyes|(api|hd).mobile).youku.com/(adv|common/v3/hudong/new)
+URL-REGEX, https?://.+.mp4\?ccode=0902
+URL-REGEX, https?://.+.mp4\?sid=
+URL-REGEX, https?://ad.api.3g.youku.com
+URL-REGEX, https?://api.appsdk.soku.com/(bg|tag)/r
+URL-REGEX, https?://api.k.sohu.com/api/channel/ad/
+URL-REGEX, https?://api.mobile.youku.com/layout/search/hot/word
+URL-REGEX, https?://m.youku.com/video/libs/iwt.js
+URL-REGEX, https?://pic.k.sohu.com/img8/wb/tj/
+URL-REGEX, https?://r.l.youku.com/rec_at_click
+URL-REGEX, "https?://r1.ykimg.com/\w{30,35}.jpg"
+URL-REGEX, "https?://r1.ykimg.com/material/.+/\d{3,4}-\d{4}"
+URL-REGEX, https?://r1.ykimg.com/material/.+/\d{6}/\d{4}/
+# URL-REGEX, https?://ups.youku.com/(.*)needad=1& https?://ups.youku.com/$1needad=0& 302
+URL-REGEX, https?://vali.cp31.ott.cibntv.net/youku
+
+// 网易
+URL-REGEX, https?://.+.127.net/ad
+URL-REGEX, https?://.+/eapi/(ad|evenet|log)/
+URL-REGEX, https?://c.m.163.com/nc/gl/
+URL-REGEX, https?://client.mail.163.com/apptrack/confinfo/searchMultiAds
+URL-REGEX, https?://dsp-impr2.youdao.com/adload.s\?
+URL-REGEX, https?://g1.163.com/madfeedback
+URL-REGEX, "https?://img1.126.net/.+dpi=\w{7,8}"
+URL-REGEX, https?://img1.126.net/channel14/
+URL-REGEX, https?://interface.music.163.com/eapi/ad/
+URL-REGEX, https?://mimg.127.net/external/smartpop-manger.min.js
+URL-REGEX, https?://nex.163.com/q
+URL-REGEX, https?://oimage([a-z])([0-9]).ydstatic.com/.+?&product=adpublish
+URL-REGEX, https?://p[4](c)?.music.126.net/\w+==/10995\d{13}.jpg$
+URL-REGEX, https?://sp.kaola.com/api/openad
+URL-REGEX, https?://support.you.163.com/xhr/boot/getBootMedia.json
+
+// 知乎
+URL-REGEX, https?://api.zhihu.com/ab/api
+URL-REGEX, https?://api.zhihu.com/ad-style-service
+URL-REGEX, https?://api.zhihu.com/app_config
+URL-REGEX, https?://api.zhihu.com/banner
+URL-REGEX, https?://api.zhihu.com/launch
+URL-REGEX, https?://api.zhihu.com/market/popover
+URL-REGEX, https?://api.zhihu.com/real_time
+URL-REGEX, https?://api.zhihu.com/search/preset_words
+URL-REGEX, https?://api.zhihu.com/search/top_search
+URL-REGEX, https?://api.zhihu.com/zst/events
+URL-REGEX, https?://www.zhihu.com/api/v4/community-ad/
+URL-REGEX, https?://www.zhihu.com/terms/privacy/confirm
+
+// 追书神器
+URL-REGEX, https?://(api|b).zhuishushenqi.com/advert
+URL-REGEX, https?://api.zhuishushenqi.com/notification/shelfMessage
+URL-REGEX, https?://api.zhuishushenqi.com/recommend
+URL-REGEX, https?://api.zhuishushenqi.com/splashes/ios
+URL-REGEX, https?://mi.gdt.qq.com/gdt_mview.fcg
+
+// Upgrade
+URL-REGEX, https?://api.zhuishushenqi.com/user/bookshelf-updated
+URL-REGEX, https?://itunes.apple.com/lookup\?id=575826903
+
+// 爱奇艺
+URL-REGEX, https?://.+/cdn/qiyiapp/\d{8}/.+&dis_dz=
+URL-REGEX, https?://.+/cdn/qiyiapp/\d{8}/.+&z=\w
+URL-REGEX, https?://.+/videos/other/
+URL-REGEX, https?://iface2.iqiyi.com/fusion/3.0/fusion_switch
+
+// 搜狐
+URL-REGEX, https?://agn.aty.sohu.com/m?
+URL-REGEX, https?://api.k.sohu.com/api/news/adsense
+URL-REGEX, https?://hui.sohu.com/predownload2/?
+URL-REGEX, https?://m.aty.sohu.com/openload?
+URL-REGEX, https?://mbl.56.com/config/v1/common/config.union.ios.do?
+URL-REGEX, https?://mmg.aty.sohu.com/mqs?
+URL-REGEX, https?://mmg.aty.sohu.com/pvlog?
+URL-REGEX, https?://photocdn.sohu.com/tvmobilemvms
+URL-REGEX, https?://pic.k.sohu.com/img8/wb/tj/
+URL-REGEX, https?://s.go.sohu.com/adgtr/\?gbcode=
+
+// 百度
+URL-REGEX, (ps|sv|offnavi|newvector|ulog.imap|newloc)(.map)?.(baidu|n.shifen).com
+URL-REGEX, https?://afd.baidu.com/afd/entry
+URL-REGEX, https?://als.baidu.com/clog/clog
+URL-REGEX, https?://baichuan.baidu.com/rs/adpmobile/launch
+URL-REGEX, https?://bj.bcebos.com/fc-feed/0/pic/
+URL-REGEX, https?://c.tieba.baidu.com/\w+/\w+/(sync|newRnSync|newlog|mlog)
+URL-REGEX, https?://c.tieba.baidu.com/c/p/img\?src=
+URL-REGEX, https?://c.tieba.baidu.com/c/s/logtogether\?cmd=
+URL-REGEX, https?://fcvbjbcebos.baidu.com/.+.mp4
+URL-REGEX, https?://gss0.bdstatic.com/.+/static/wiseindex/img/bd_red_packet.png
+URL-REGEX, https?://issuecdn.baidupcs.com/issue/netdisk/guanggao/
+URL-REGEX, https?://sm.domobcdn.com/ugc/\w/
+URL-REGEX, https?://tb1.bdstatic.com/tb/cms/ngmis/adsense/*.jpg
+URL-REGEX, https?://tb2.bdstatic.com/tb/mobile/spb/widget/jump
+URL-REGEX, https?://update.pan.baidu.com/statistics
+URL-REGEX, https?://wapwenku.baidu.com/view/fengchao/
+URL-REGEX, https?://wapwenku.baidu.com/view/fengchaoTwojump/
+URL-REGEX, https?://wenku.baidu.com/shifen/
+
+// 墨迹天气
+URL-REGEX, https?://ad.api.moji.com/ad/log/stat
+URL-REGEX, https?://ast.api.moji.com/assist/ad/moji/stat
+URL-REGEX, https?://cdn.moji.com/adlink/avatarcard
+URL-REGEX, https?://cdn.moji.com/adlink/common
+URL-REGEX, https?://cdn.moji.com/adlink/splash/
+URL-REGEX, https?://cdn.moji.com/advert/
+URL-REGEX, https?://cdn2.moji002.com/webpush/ad2/
+URL-REGEX, https?://fds.api.moji.com/card/recommend
+URL-REGEX, https?://show.api.moji.com/json/showcase/getAll
+URL-REGEX, https?://stat.moji.com
+URL-REGEX, https?://storage.360buyimg.com/kepler-app
+URL-REGEX, https?://ugc.moji001.com/sns/json/profile/get_unread
+
+// 小米
+URL-REGEX, https?://api.m.mi.com/v1/app/start
+URL-REGEX, https?://api.jr.mi.com/v1/adv/
+
+// 中国电信
+URL-REGEX, https?://image1.chinatelecom-ec.com/images/.+/\d{13}.jpg
+
+// 中国联通
+URL-REGEX, https?://m.client.10010.com/mobileService/(activity|customer)/(accountListData|get_client_adv|get_startadv)
+URL-REGEX, https?://m.client.10010.com/uniAdmsInterface/(getHomePageAd|getWelcomeAd)
+URL-REGEX, https?://m1.ad.10010.com/noticeMag/images/imageUpload/2\d{3}
+URL-REGEX, https?://res.mall.10010.cn/mall/common/js/fa.js?referer=
+
+// 凤凰网
+URL-REGEX, https?://api.newad.ifeng.com/ClientAdversApi1508\?adids=
+URL-REGEX, https?://c1.ifengimg.com/.+_w1080_h1410.jpg
+URL-REGEX, https?://exp.3g.ifeng.com/coverAdversApi\?gv=.
+URL-REGEX, https?://ifengad.3g.ifeng.com/ad/pv.php\?stat=
+URL-REGEX, https?://iis1.deliver.ifeng.com/getmcode\?adid=
+
+// 京东
+URL-REGEX, https?://.+/client?functionId=lauch/lauchConfig&appName=paidaojia
+URL-REGEX, https?://111.13.29.201/client.action\?functionId=start
+URL-REGEX, https?://api.m.jd.com/client.action\?functionId=start
+URL-REGEX, https?://bdsp-x.jd.com/adx/
+URL-REGEX, https?://m.360buyimg.com/mobilecms/s640x1136_jfs/
+URL-REGEX, https?://ms.jr.jd.com/gw/generic/base/na/m/adInfo
+
+// 淘宝
+URL-REGEX, https?://gw.alicdn.com/tfs/.+-1125-1602
+
+// 豆瓣
+URL-REGEX, "https?://(\d{1,3}.){1,3}\d{1,3}/view/dale-online/dale_ad/"
+URL-REGEX, https?://api.douban.com/v2/app_ads/common_ads
+URL-REGEX, https?://frodo.douban.com/api/v2/movie/banner
+URL-REGEX, https?://img\d.doubanio.com/view/dale-online/dale_ad/
+
+// 斗鱼
+URL-REGEX, https?://capi.douyucdn.cn/lapi/sign/app(api)?/getinfo\?client_sys=ios
+URL-REGEX, https?://capi.douyucdn.cn/api/ios_app/check_update
+URL-REGEX, https?://capi.douyucdn.cn/api/v1/getStartSend?client_sys=ios
+URL-REGEX, https?://douyucdn.cn/.+/appapi/getinfo
+URL-REGEX, https?://rtbapi.douyucdn.cn/japi/sign/app/getinfo
+URL-REGEX, https?://staticlive.douyucdn.cn/.+/getStartSend
+URL-REGEX, https?://staticlive.douyucdn.cn/upload/signs/
+
+// 饿了么
+URL-REGEX, https?://elemecdn.com/.+/sitemap
+URL-REGEX, "https?://fuss10.elemecdn.com/.+/w/640/h/\d{3,4}"
+URL-REGEX, "https?://fuss10.elemecdn.com/.+/w/750/h/\d{3,4}"
+URL-REGEX, https?://fuss10.elemecdn.com/.+.mp4
+URL-REGEX, https?://m.elecfans.com/static/js/ad.js
+URL-REGEX, https?://www1.elecfans.com/www/delivery/
+
+// 头条
+URL-REGEX, https?://p\d.pstatp.com/origin
+URL-REGEX, https?://pb\d.pstatp.com/origin
+
+// 咸鱼
+URL-REGEX, https?://gw.alicdn.com/mt/
+URL-REGEX, "https?://gw.alicdn.com/tfs/.+\d{3,4}-\d{4}"
+URL-REGEX, "https?://gw.alicdn.com/tps/.+\d{3,4}-\d{4}"
+
+// 喜马拉雅
+URL-REGEX, https?://adse.+.com/[a-z]{4}/loading\?appid=
+URL-REGEX, https?://adse.ximalaya.com/ting/feed\?appid=
+URL-REGEX, https?://adse.ximalaya.com/ting/loading\?appid=
+URL-REGEX, https?://adse.ximalaya.com/ting\?appid=
+URL-REGEX, https?://fdfs.xmcdn.com/group21/M03/E7/3F/
+URL-REGEX, https?://fdfs.xmcdn.com/group21/M0A/95/3B/
+URL-REGEX, https?://fdfs.xmcdn.com/group22/M00/92/FF/
+URL-REGEX, https?://fdfs.xmcdn.com/group22/M05/66/67/
+URL-REGEX, https?://fdfs.xmcdn.com/group22/M07/76/54/
+URL-REGEX, https?://fdfs.xmcdn.com/group23/M01/63/F1/
+URL-REGEX, https?://fdfs.xmcdn.com/group23/M04/E5/F6/
+URL-REGEX, https?://fdfs.xmcdn.com/group23/M07/81/F6/
+URL-REGEX, https?://fdfs.xmcdn.com/group23/M0A/75/AA/
+URL-REGEX, https?://fdfs.xmcdn.com/group24/M03/E6/09/
+URL-REGEX, https?://fdfs.xmcdn.com/group24/M07/C4/3D/
+URL-REGEX, https?://fdfs.xmcdn.com/group25/M05/92/D1/
+
+// 掌阅
+URL-REGEX, https?://book.img.ireader.com/group6/M00
+
+// 易车
+URL-REGEX, https?://api.ycapp.yiche.com/appnews/getadlist
+URL-REGEX, https?://api.ycapp.yiche.com/yicheapp/getadlist
+URL-REGEX, https?://api.ycapp.yiche.com/yicheapp/getappads/
+URL-REGEX, https?://cheyouapi.ycapp.yiche.com/appforum/getusermessagecount
+
+// YouTube
+URL-REGEX, https?://.+.googlevideo.com/.+&oad
+URL-REGEX, https?://.+.googlevideo.com/.+ctier
+URL-REGEX, https?://.+.googlevideo.com/ptracking\?pltype=adhost
+URL-REGEX, https?://.+.youtube.com/api/stats/.+adformat
+URL-REGEX, https?://.+.youtube.com/api/stats/ads
+URL-REGEX, https?://.+.youtube.com/get_midroll_
+URL-REGEX, https?://.+.youtube.com/pagead/
+URL-REGEX, https?://.+.youtube.com/ptracking\?
+URL-REGEX, https?://m.youtube.com/_get_ads
+URL-REGEX, https?://pagead2.googlesyndication.com/pagead/
+URL-REGEX, https?://premiumyva.appspot.com/vmclickstoadvertisersite
+URL-REGEX, https?://s.youtube.com/api/stats/watchtime?adformat
+URL-REGEX, https?://s0.2mdn.net/ads/
+URL-REGEX, https?://stats.tubemogul.com/stats/
+URL-REGEX, https?://youtubei.googleapis.com/.+ad_break
+URL-REGEX, https?://youtubei.googleapis.com/youtubei/.+(ad|log)_
+URL-REGEX, ttps?://.+.youtube.com/api/stats/ads
+
+// Youtube++
+URL-REGEX, https?://api.catch.gift/api/v3/pagead/
+
+// 网喵
+URL-REGEX, https?://.+0013.+/upload/activity/app_flash_screen_
+
+// 天山直播
+URL-REGEX, http?://www.tsytv.com.cn/api/app/ios/ads
+
+// 肯德基
+URL-REGEX, https?://res.kfc.com.cn/advertisement/
+
+// 首约汽车
+URL-REGEX, https?://img.yun.01zhuanche.com/statics/app/advertisement/.+-750-1334
+
+// 神舟汽车
+URL-REGEX, https?://img01.10101111cdn.com/adpos/share/
+
+// 流量银行
+URL-REGEX, https?://bank.wo.cn/v9/getstartpage
+
+// 海盐
+URL-REGEX, https?://img.ihytv.com/material/adv/img/
+
+// 美团
+URL-REGEX, https?://img.meituan.net/midas/
+URL-REGEX, https?://p\d.meituan.net/(mmc|wmbanner)/
+
+// QQ Pim
+URL-REGEX, https?://mmgr.gtimg.com/gjsmall/qqpim/public/ios/splash/.+/\d{4}_\d{4}
+
+// 界面新闻
+URL-REGEX, https?://img.jiemian.com/ads/
+
+// 汽车之家
+URL-REGEX, https?://adproxy.autohome.com.cn/AdvertiseService/
+URL-REGEX, https?://app2.autoimg.cn/appdfs/
+
+// 起点读书
+URL-REGEX, https?://mage.if.qidian.com/Atom.axd/Api/Client/GetConfIOS
+
+// 当当
+URL-REGEX, https?://img\d{2}.ddimg.cn/upload_img/.+/670x900
+URL-REGEX, https?://img\d{2}.ddimg.cn/upload_img/.+/750x1064
+URL-REGEX, https?://mapi.dangdang.com/index.php\?action=init&user_client=iphone
+
+// 国泰君安证券
+URL-REGEX, https?://dl.app.gtja.com/dzswem/kvController/
+URL-REGEX, https?://dl.app.gtja.com/operation/config/startupConfig.json
+
+// 来疯直播
+URL-REGEX, https?://api.laifeng.com/v1/start/ads
+
+// 抖音
+URL-REGEX, https?://.+.pstatp.com/img/ad
+URL-REGEX, https?://.+.snssdk.com/api/ad/
+URL-REGEX, https?://aweme.snssdk.com/aweme/v1/aweme/stats/
+URL-REGEX, https?://aweme.snssdk.com/aweme/v1/device/update/
+URL-REGEX, https?://aweme.snssdk.com/aweme/v1/screen/ad/
+URL-REGEX, https?://aweme.snssdk.com/service/1/app_logout/
+URL-REGEX, https?://aweme.snssdk.com/service/2/app_log
+URL-REGEX, https?://frontier.snssdk.com/
+URL-REGEX, https?://sf\w-ttcdn-tos.pstatp.com/obj/web.business.image
+
+// 下厨房
+URL-REGEX, https?://api.xiachufang.com/v2/ad/
+
+// Facebook
+URL-REGEX, https?://connect.facebook.net/en_US/fbadnw.js
+
+// 快递100
+URL-REGEX, https?://qzonestyle.gtimg.cn/qzone/biz/gdt/mob/sdk/ios/v2/
+URL-REGEX, https?://cdn.kuaidi100.com/images/open/appads
+URL-REGEX, https?://p.kuaidi100.com/mobile/mainapi.do
+
+// Mi
+URL-REGEX, https?://api.m.mi.com/.+/app/start
+URL-REGEX, https?://api-mifit.huami.com/discovery/mi/discovery/homepage_ad\?
+URL-REGEX, https?://api-mifit.huami.com/discovery/mi/discovery/sleep_ad\?
+URL-REGEX, https?://api-mifit.huami.com/discovery/mi/discovery/sport_ad\?
+URL-REGEX, https?://api-mifit.huami.com/discovery/mi/discovery/sport_summary_ad\?
+URL-REGEX, https?://api-mifit.huami.com/discovery/mi/discovery/sport_training_ad\?
+URL-REGEX, https?://api-mifit.huami.com/discovery/mi/discovery/step_detail_ad\?
+URL-REGEX, https?://api-mifit.huami.com/discovery/mi/discovery/training_video_ad\?
+
+// Weico
+URL-REGEX, https?://overseas.weico.cc/portal.php\?a=get_coopen_ads
+
+// StarFans
+URL-REGEX, https?://g.cdn.pengpengla.com/starfantuan/boot-screen-info/
+
+// Discuz
+URL-REGEX, https?://discuz.gtimg.cn/cloud/scripts/discuz_tips.js
+
+// 果盘游戏
+URL-REGEX, https?://sapi.guopan.cn/get_buildin_ad
+
+// 驾考宝典
+URL-REGEX, https?://789.kakamobi.cn/.+adver
+URL-REGEX, https?://smart.789.image.mucang.cn/advert
+
+// 招商银行
+URL-REGEX, https?://pic1cdn.cmbchina.com/appinitads/
+
+// Cmblife
+URL-REGEX, https?://mlife.cmbchina.com/ClientFace(Service)?/getAdvertisement.json
+URL-REGEX, https?://mlife.cmbchina.com/ClientFace(Service)?/preCacheAdvertise.json
+URL-REGEX, https?://resource.cmbchina.com/fsp/File/ClientFacePublic/.+.gif
+
+// ElongClient
+URL-REGEX, http?://123.59.30.10/adv/advInfos
+
+// AiRav
+URL-REGEX, https?://bbs.airav.cc/data/.+.jpg
+URL-REGEX, https?://image.airav.cc/AirADPic/.+.gif
+URL-REGEX, https?://m.airav.cc/images/Mobile_popout_cn.gif
+
+// 花生地铁
+URL-REGEX, https?://cmsapi.wifi8.com/v1/emptyAd/info
+URL-REGEX, https?://cmsapi.wifi8.com/v2/adNew/config
+URL-REGEX, https?://cmsfile.wifi8.com/uploads/png/
+
+// AppSo
+URL-REGEX, https?://sso.ifanr.com/jiong/IOS/appso/splash/
+
+// 懒人听书
+URL-REGEX, https?://118.178.214.118/yyting/advertclient/ClientAdvertList.action
+URL-REGEX, https?://dapis.mting.info/yyting/advertclient/ClientAdvertList.action
+
+// 91Porn
+URL-REGEX, https?://192.133.+.mp4$
+
+// 熊猫直播
+URL-REGEX, "https?://static.api.m.panda.tv/index.php\?method=clientconf.firstscreen&__version=(play_cnmb|(\d+.){0,3}\d+)&__plat=ios&__channel=appstore"
+
+// 微吼
+URL-REGEX, https?://api.app.vhall.com/v5/000/webinar/launch
+
+// 天天狼人杀
+URL-REGEX, https?://img.53site.com/Werewolf/AD/
+URL-REGEX, https?://werewolf.53site.com/Werewolf/.+/getAdvertise.php
+URL-REGEX, https?://werewolf.53site.com/Werewolf/.+/getShareVideodb.php
+
+// Apple
+URL-REGEX, https?://a.applovin.com/.+/ad
+
+// 微医
+URL-REGEX, https?://app.wy.guahao.com/json/white/dayquestion/getpopad
+URL-REGEX, https?://kano.guahao.cn/.+\?resize=\d{3}-\d{4}
+
+// 车来了
+URL-REGEX, https?://api.chelaile.net.cn/adpub/
+URL-REGEX, https?://api.chelaile.net.cn/goocity/advert/
+URL-REGEX, https?://atrace.chelaile.net.cn/adpub/
+URL-REGEX, https?://atrace.chelaile.net.cn/exhibit\?&adv_image
+URL-REGEX, https?://pic1.chelaile.net.cn/adv/
+
+// 健康160
+URL-REGEX, https?://images.91160.com/primary/
+
+// 1钱包
+URL-REGEX, https?://d.1qianbao.com/youqian/ads/
+
+// 火猫直播
+URL-REGEX, https?://api.huomao.com/channels/loginAd
+
+// 快看漫画
+URL-REGEX, https?://api.kkmh.com/v\d/(ad|advertisement)/
+
+// 虎扑
+URL-REGEX, https?://i1.hoopchina.com.cn/blogfile/.+_\d{3}x\d{4}
+
+// 乐视TV
+URL-REGEX, https?://.+/letv-gug/
+
+// 芒果TV
+URL-REGEX, https?://pcvideoyd.titan.mgtv.com/pb/
+
+// Kecheng Gezi
+URL-REGEX, https?://classbox2.kechenggezi.com/api/v1/sponge/pull\?request_time=
+
+// 当当阅读
+URL-REGEX, https?://e.dangdang.com/media/api.+\?action=getDeviceStartPage
+
+// 什么值得买
+URL-REGEX, https?://api.smzdm.com/v1/util/loading
+URL-REGEX, https?://api.smzdm.com/v2/util/banner
+
+// 飞常准
+URL-REGEX, https?://app.veryzhun.com/ad/admob
+
+// 凤凰秀
+URL-REGEX, https?://api.fengshows.com/api/launchAD
+
+// 人人视频
+URL-REGEX, https?://img.rr.tv/banner/.+.jpg
+
+// 人人影视
+URL-REGEX, https?://ctrl.(playcvn|zmzapi).net/app/(ads|init)
+
+// 老司机
+URL-REGEX, https?://api.laosiji.com/user/startpage/
+
+// 同花顺 Pro
+URL-REGEX, https?://adm.10jqka.com.cn/interface/getads.php
+
+// 杭州市民卡
+URL-REGEX, https?://smkmp.96225.com/smkcenter/ad/.+/adBanner
+
+// 杭州公交
+URL-REGEX, https?://m.ibuscloud.com/v2/app/getStartPage
+
+// 埋堆堆
+URL-REGEX, https?://api.mddcloud.com.cn/api/ad/getClassAd.action
+URL-REGEX, https?://api.mddcloud.com.cn/api/advert/getHomepage.action
+
+// 叨鱼
+URL-REGEX, https?://daoyu.sdo.com/api/userCommon/getAppStartAd
+
+// Keep
+URL-REGEX, https?://api.gotokeep.com/ads
+URL-REGEX, https?://static1.keepcdn.com/.+\d{3}x\d{4}
+
+// iSafePlay
+URL-REGEX, https?://aarkissltrial.secure2.footprint.net/v1/ads
+URL-REGEX, https?://rm.aarki.net/v1/ads
+
+// 超级课程表
+URL-REGEX, https?://182.92.244.70/d/json/
+
+// 飞猪
+URL-REGEX, https?://acs.m.taobao.com/gw/mtop.trip.activity.querytmsresources/1.0\?type=originaljson
+
+// Finger Driver
+URL-REGEX, https?://.+/videos/KnifeHit_4/gear3/
+
+// 驾图
+URL-REGEX, https?://images.kartor.cn/.+.html
+
+// 动卡空间
+URL-REGEX, https?://m.creditcard.ecitic.com/citiccard/mbk/appspace-client/cr/sys/popAdv
+
+// 好奇心日报
+URL-REGEX, https?://app3.qdaily.com/app3/boot_advertisements.json
+
+// 分期乐
+URL-REGEX, https?://fm.fenqile.com/routev2/other/getfloatAd.json
+URL-REGEX, https?://fm.fenqile.com/routev2/other/startImg.json
+
+// Vip mobile
+URL-REGEX, https?://.+/vips-mobile/router.do\?api_key=
+
+// 顺丰蜂巢
+URL-REGEX, https?://consumer.fcbox.com/v1/ad/OpeningAdInfo/
+
+// 威锋
+URL-REGEX, https?://api.feng.com[\s\S]*?Claunch_screen
+URL-REGEX, https?://fengplus.feng.com/index.php\?r=api/slide/.+Ads
+
+// 咪咕
+URL-REGEX, https?://.+/img/ad.union.api/
+URL-REGEX, https?://.+/v1/iflyad/
+URL-REGEX, https?://ggic.cmvideo.cn/ad/
+URL-REGEX, https?://ggic2.cmvideo.cn/ad/
+URL-REGEX, https?://ggv.cmvideo.cn/v1/iflyad/
+
+// 太平洋电脑网
+URL-REGEX, https?://agent-count.pconline.com.cn/counter/adAnalyse/
+URL-REGEX, https?://ivy.pchouse.com.cn/adpuba/
+
+// 开源中国
+URL-REGEX, https?://www.oschina.net/action/apiv2/get_launcher
+
+// ofo
+URL-REGEX, https?://activity2.api.ofo.com/ofo/Api/v2/ads
+URL-REGEX, https?://ma.ofo.com/ads
+URL-REGEX, https?://supportda.ofo.com/adaction\?
+
+// 四季线上影视
+URL-REGEX, https?://service.4gtv.tv/4gtv/Data/ADLog
+URL-REGEX, https?://service.4gtv.tv/4gtv/Data/GetAD
+
+// 爱回收
+URL-REGEX, https?://gw.aihuishou.com/app-portal/home/getadvertisement
+
+// 58同城
+URL-REGEX, https?://app.58.com/api/log/
+
+// 多看
+URL-REGEX, https?://www.duokan.com/pictures?
+URL-REGEX, https?://www.duokan.com/promotion_day
+
+// TikTok
+URL-REGEX, https?://api\d?.tiktokv.com/api/ad/
+URL-REGEX, https?://api\d?.musical.ly/api/ad/
+
+// 漫画人
+URL-REGEX, https?://mangaapi.manhuaren.com/v1/public/getStartPageAds
+
+// 秒拍
+URL-REGEX, https?://b-api.ins.miaopai.com/1/ad/
+
+// 迅雷
+URL-REGEX, https?://images.client.vip.xunlei.com/.+/advert/
+
+// 天气通
+URL-REGEX, https?://tqt.weibo.cn/.+advert.index
+URL-REGEX, https?://tqt.weibo.cn/overall/redirect.php\?r=tqt_sdkad
+URL-REGEX, https?://tqt.weibo.cn/overall/redirect.php\?r=tqtad
+
+// 运动世界
+URL-REGEX, https?://.+.iydsj.com/api/.+/ad
+
+// 雅思
+URL-REGEX, https?://cdn.tiku.zhan.com/banner
+
+// 美味不用等
+URL-REGEX, https?://capi.mwee.cn/app-api/V12/app/getstartad
+
+// AcFun
+URL-REGEX, https?://aes.acfun.cn/s\?adzones
+
+// 讯飞
+URL-REGEX, https?://imeclient.openspeech.cn/adservice/
+
+// Yahoo
+URL-REGEX, https?://m.yap.yahoo.com/v18/getAds.do
+
+// 抱抱
+URL-REGEX, https?://www.myhug.cn/ad/
+
+// 麻花影视
+URL-REGEX, https?://.+/api/app/member/ver2/user/login/
+
+// 直播吧
+URL-REGEX, https?://a.qiumibao.com/activities/config.php
+URL-REGEX, https?://.+/allOne.php\?ad_name
+
+// 穷游
+URL-REGEX, https?://open.qyer.com/qyer/startpage/
+URL-REGEX, https?://open.qyer.com/qyer/config/get
+URL-REGEX, https?://media.qyer.com/ad/
+
+// 肆客足球
+URL-REGEX, https?://api.qiuduoduo.cn/guideimage
+
+// 萤石云视频
+URL-REGEX, https?://i.ys7.com/api/ads
+
+// 电视家
+URL-REGEX, https?://api.gaoqingdianshi.com/api/v2/ad
+
+// 虎扑
+URL-REGEX, https?://i\d.hoopchina.com.cn/blogfile//d+//d+/BbsImg.(?<=(big.(png|jpg)))$
+URL-REGEX, https?://games.mobileapi.hupu.com/.+/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm).
+URL-REGEX, https?://games.mobileapi.hupu.com/interfaceAdMonitor
+
+// 高德
+URL-REGEX, https?://m5.amap.com/ws/valueadded/
+
+// 虾米音乐
+URL-REGEX,https?://pic.xiami.net/images/common/uploadpic[\s\S]*?.jpg$
+
+// 作业帮
+URL-REGEX, https?://img.zuoyebang.cc/zyb-image[\s\S]*?.jpg
+
+// bilibili
+URL-REGEX, https?://api.bilibili.com/pgc/season/rank/cn
+URL-REGEX, https?://app.bilibili.com/x/v2/rank.*rid=168
+URL-REGEX, https?://app.bilibili.com/x/v2/rank.*rid=5
+URL-REGEX, https?://app.bilibili.com/x/v2/search/defaultword
+URL-REGEX, https?://app.bilibili.com/x/v2/search/hot
+URL-REGEX, https?://app.bilibili.com/x/v2/search/recommend
+
+// 一点万象
+URL-REGEX, https?://app.mixcapp.com/mixc/api/v2/ad
+
+// WiFi共享大师
+URL-REGEX, https?://nochange.ggsafe.com/ad/
+
+// 蜗牛睡眠
+URL-REGEX, https?://snailsleep.net/snail/v1/adTask/
+URL-REGEX, https?://snailsleep.net/snail/v1/screen/qn/get\?
+
+// 小睡眠
+URL-REGEX, https?://api.psy-1.com/cosleep/startup
+
+// Yahoo!
+URL-REGEX, https?://m.yap.yahoo.com/v18/getAds.do
+
+// WeDoctor
+URL-REGEX, https?://app.wy.guahao.com/json/white/dayquestion/getpopad
+
+// 无他
+URL-REGEX, https?://api-release.wuta-cam.com/ad_tree
+URL-REGEX, https?://res-release.wuta-cam.com/json/ads_component_cache.json
+
+// Other
+URL-REGEX, amdc
+URL-REGEX, dataflow
+URL-REGEX, featured-comment-ad
+URL-REGEX, https?://.+allOne.php\?ad_name=main_splash_ios
+URL-REGEX, https?://.+nga.cn.+\bhome.+\b=ad
+URL-REGEX, https?://.+resource=article/recommend\&accessToken=
+URL-REGEX, https?://113.200.76.*:16420/sxtd.bike2.01/getkey.do
+URL-REGEX, https?://cdn.api.fotoable.com/Advertise/
+URL-REGEX, https?://counter.ksosoft.com/ad.php
+URL-REGEX, https?://creatives.ftimg.net/ads
+URL-REGEX, https?://dd.iask.cn/ddd/adAudit
+URL-REGEX, https?://g.tbcdn.cn/mtb/
+URL-REGEX, https?://huichuan.sm.cn/jsad
+URL-REGEX, https?://iflow.uczzd.cn/log/
+URL-REGEX, https?://iphone265g.com/templates/iphone/bottomAd.js
+URL-REGEX, https?://m.+.china.com.cn/statics/sdmobile/js/ad
+URL-REGEX, https?://m.+.china.com.cn/statics/sdmobile/js/mobile.advert.js
+URL-REGEX, https?://m.+.china.com.cn/statics/sdmobile/js/mobileshare.js
+URL-REGEX, https?://m.elecfans.com/static/js/ad.js
+URL-REGEX, https?://mobile-pic.cache.iciba.com/feeds_ad/
+URL-REGEX, https?://nga.cn.+\bhome.+\b=ad
+URL-REGEX, https?://overseas.weico.cc/portal.php\?a=get_coopen_ads
+URL-REGEX, https?://player.hoge.cn/advertisement.swf
+URL-REGEX, https?://ress.dxpmedia.com/appicast/
+URL-REGEX, https?://s3.pstatp.com/inapp/TTAdblock.css
+URL-REGEX, https?://sdk.99shiji.com/ad/
+URL-REGEX, https?://statc.mytuner.mobi/media/banners/
+URL-REGEX, https?://static.cnbetacdn.com/assets/adv
+URL-REGEX, https?://static.iask.cn/m-v20161228/js/common/adAudit.min.js
+URL-REGEX, https?://v.17173.com/api/Allyes/
+URL-REGEX, https?://wmedia-track.uc.cn
+URL-REGEX, https?://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fcreatives.ftimg.net%2Fads*
+URL-REGEX, https?://www.lianbijr.com/adPage/
+URL-REGEX, openapi

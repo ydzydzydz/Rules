@@ -1,0 +1,11 @@
+// AppleNews 地区限制
+
+USER-AGENT,com.apple.geod*
+USER-AGENT,com.apple.Maps
+USER-AGENT,geod*
+USER-AGENT,locationd*
+USER-AGENT,Maps*
+DOMAIN,gs-loc.apple.com
+DOMAIN-SUFFIX,lcdn-locator.apple.com
+DOMAIN-SUFFIX,lcdn-registration.apple.com
+DOMAIN-SUFFIX,ls.apple.com

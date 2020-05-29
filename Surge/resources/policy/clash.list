@@ -1,0 +1,5 @@
+# 需搭配Clash使用，Clash配置中开启 allow-lan: true
+⏸ OFF = direct
+# 填写好对应的IP和端口
+▶️ HTTP = http, [SERVER ADDRESS], [GENERATED PORT]
+▶️ SOCKS5 = socks5, [SERVER ADDRESS], [GENERATED PORT]

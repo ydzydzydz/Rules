@@ -1,0 +1,8 @@
+// 腾讯 Pad 管家测速
+URL-REGEX,^http:\/\/pmir\.3g\.qq\.com\/netspeedtest$
+
+// 搜狐视频误拦截
+DOMAIN-SUFFIX,data.vod.itc.cn
+
+// cloudd
+AND,((USER-AGENT,cloudd*), (DOMAIN-SUFFIX,gala.convection.cn))

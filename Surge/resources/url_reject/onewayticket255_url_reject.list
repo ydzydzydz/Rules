@@ -1,0 +1,26 @@
+// 来源：https://github.com/onewayticket255/Surge-Script
+ 
+// 知乎
+URL-REGEX, https://api.zhihu.com/launch
+URL-REGEX, https://api.zhihu.com/ad-style-service
+URL-REGEX, https://api.zhihu.com/market/popover
+URL-REGEX, https://api.zhihu.com/real_time
+URL-REGEX, https://api.zhihu.com/app_config
+URL-REGEX, https://api.zhihu.com/ab/api
+URL-REGEX, https://api.zhihu.com/search/top_search
+URL-REGEX, https://api.zhihu.com/banner
+
+// bilibili
+URL-REGEX, https://app.bilibili.com/x/v2/search/defaultword
+URL-REGEX, https://app.bilibili.com/x/v2/search/recommend
+URL-REGEX, https://app.bilibili.com/x/v2/search/hot
+URL-REGEX, https://app.bilibili.com/x/v2/rank.*rid=168
+URL-REGEX, https://app.bilibili.com/x/v2/rank.*rid=5
+URL-REGEX, https://api.bilibili.com/pgc/season/rank/cn
+URL-REGEX, https://api.zhihu.com/search/preset_words
+URL-REGEX, https://api.zhihu.com/zst/events
+
+// 网易云音乐
+URL-REGEX, http://interface.music.163.com/eapi/ad
+URL-REGEX, http://iadmusicmat.music.126.net/.*jpg$
+URL-REGEX, http://p.c.music.126.net/.*jpg$
