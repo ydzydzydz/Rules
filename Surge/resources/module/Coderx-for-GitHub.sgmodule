@@ -1,0 +1,40 @@
+#!name=Coderx for GitHub
+#!desc=Coderx for Github
+#!system=ios
+
+[MITM]
+hostname = %APPEND%, github.com, gist.github.com
+
+[URL Rewrite]
+
+// 打开 Gist 详情
+^https:\/\/gist\.github\.com\/([A-Za-z0-9._-]+)\/([A-Za-z0-9._-]+)\/?$ grape://gist?id=$2 307
+
+// 打开 Gist 列表
+^https:\/\/gist\.github\.com\/([A-Za-z0-9._-]+)\/?$ grape://gists?login=$1 307
+
+// 打开仓库列表
+^https:\/\/github\.com\/([A-Za-z0-9._-]+)\?tab=repositories\/? grape://repos?login=$1 307
+
+// 打开星标仓库列表
+^https:\/\/github\.com\/([A-Za-z0-9._-]+)\?tab=stars\/? grape://stars?login=$1 307
+
+// 查看提交详情
+^https:\/\/github\.com\/(?!.*users)(?!.*trending)(.+?)\/commit\/(.*)$ grape://commit?id=$2&reponame=$1 307
+
+// 查看 Pull Request 详情
+^https:\/\/github\.com\/(?!.*users)(?!.*trending)(.+?)\/pull\/(\d+)$ grape://pr?number=$2&reponame=$1 307
+
+// 查看 issue 详情
+^https:\/\/github\.com\/(?!.*users)(?!.*trending)(.+?)\/issues\/(\d+)$ grape://issue?number=$2&reponame=$1 307
+
+// 打开 Pull Request 列表
+^https:\/\/github\.com\/(?!.*users)(?!.*trending)(.+?)\/pulls\/?$ grape://prs?reponame=$1 307
+
+// 打开 issue 列表
+^https:\/\/github\.com\/(?!.*users)(?!.*trending)(.+?)\/issues\/?$ grape://issues?reponame=$1 307
+
+// 查看仓库详情
+^https:\/\/github\.com\/(?!.*users)(?!.*trending)([\u4E00-\u9FA5A-Za-z0-9._-]+)\/(?!.*blob)([\u4E00-\u9FA5A-Za-z0-9._-]+)(?!.*md)(?!.*png|jpg)$ grape://repo?reponame=$1/$2 307
+
+^https:\/\/github\.com\/(?!.*users)(?!.*trending)([\u4E00-\u9FA5A-Za-z0-9._-]+)$ grape://user?login=$1 307
