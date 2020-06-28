@@ -37,4 +37,5 @@ hostname = %APPEND%, github.com, gist.github.com
 // 查看仓库详情
 ^https:\/\/github\.com\/(?!.*users)(?!.*trending)([\u4E00-\u9FA5A-Za-z0-9._-]+)\/(?!.*blob)([\u4E00-\u9FA5A-Za-z0-9._-]+)(?!.*md)(?!.*png|jpg)$ grape://repo?reponame=$1/$2 307
 
+// 查看 Repos/Developers 的排行
 ^https:\/\/github\.com\/(?!.*users)(?!.*trending)([\u4E00-\u9FA5A-Za-z0-9._-]+)$ grape://user?login=$1 307
