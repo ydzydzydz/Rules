@@ -16,11 +16,6 @@ DOMAIN-SUFFIX,adserver-ad.321mh.com
 
 #============================================================================================
 
-USER-AGENT,AVOS*
-URL-REGEX,https://www.zhihu.com/api/v4/mcn/
-URL-REGEX,https://api.zhihu.com/(ab|adx|xen|drama|fringe|zst|commercial|ad-style-service|market/popover|search/(top|tab|preset)|.*(guide|recommendations|extended|featured-comment-ad))
-AND,((USER-AGENT,osee2*), (NOT,((IP-CIDR,118.89.204.198/32))), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
-
 //顺丰速递
 URL-REGEX,https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/
 
