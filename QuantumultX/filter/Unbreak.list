@@ -2,4 +2,5 @@
 
 # clubhouse
 DOMAIN,clubhouse.pubnub.com,DIRECT
+DOMAIN,pubsub.pubnub.com,DIRECT
 DOMAIN-KEYWORD,clubhouse,DIRECT
