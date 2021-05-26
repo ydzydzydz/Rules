@@ -1,0 +1,6 @@
+#!name=自动切换出站模式
+#!desc=连接到指定网络，运行脚本，切换至直连模式
+#!system=ios
+
+[Script]
+自动切换网络 = type=event,event-name=network-changed,script-path=resources/script/auto-network-change.js
